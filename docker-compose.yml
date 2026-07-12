@@ -1,0 +1,7 @@
+services:
+  frontend:
+    image: malekdev80/mon-frontend-web:latest
+    container_name: frontend-service
+    ports:
+      - "80:80"
+    restart: always
